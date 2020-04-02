@@ -1,0 +1,51 @@
+.PostItem {
+  display: block;
+  background: #f5f1ec;
+  min-width: 190px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  button {
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    background: #cfbda3;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.Grid {
+  display: inline-block;
+  width: calc(100% / 4 - 20px);
+  margin: 0 10px;
+  margin-bottom: 30px;
+}
+
+.ItemTitle {
+  height: 60px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.ItemWriter {
+  font-style: italic;
+  color: gray;
+  font-size: 12px;
+  sub {
+    font-weight: normal;
+  }
+}
+
+.Description {
+  white-space: normal;
+  line-height: 1.2;
+  height: 30px;
+  text-align: left;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+}

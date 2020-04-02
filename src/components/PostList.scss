@@ -1,0 +1,81 @@
+.PostList {
+  margin: 20px auto;
+  display: block;
+  min-width: 330px;
+}
+
+.NoPost {
+  text-align: center;
+  margin-top: 30px;
+  color: gray;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.OptionWrapper {
+  text-align: right;
+  height: 100%;
+}
+.Option {
+  line-height: 25px;
+  margin: 10px 50px;
+  font-weight: bold;;
+  button {
+    border: none;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 120px;
+  }
+  .viewBtn{
+    background: #bda3cf;
+  }
+  .numBtn{
+    background: #a3cfbd;
+  }
+}
+
+.ViewType{
+    color: #bda3cf;
+}
+.ItemNum{
+    color: #a3cfbd;
+}
+.ItemWrapper{
+  text-align: center;
+  padding: 0 50px;
+  overflow: scroll;
+  height: calc(100vh - 165px);
+}
+
+@media (max-width: 767px) {
+  .PostList {
+    .ItemWrapper {
+      .Grid {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 939px) {
+  .ItemWrapper {
+    padding: 0;
+  }
+  .Grid {
+    margin: 0 5px;
+    margin-bottom: 30px;
+  }
+  .PostItem {
+    min-width: 180px;
+    padding: 20px 5px;
+  }
+
+}
