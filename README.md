@@ -1,3 +1,11 @@
+React Hook 연습용 프로젝트
+
+Deployed at  https://kind-bhaskara-a80131.netlify.com/
+
+https://jsonplaceholder.typicode.com/ 의 더미데이터를 이용하여 post 리스트와 post에 해당하는 comments를 보여주는 애플리케이션입니다.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
